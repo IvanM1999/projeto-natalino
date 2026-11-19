@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f1e8" />
+    <meta name="description" content="MagicDreams Alpha: uma experiência musical independente para ouvir, tocar e compor." />
+    <title>MagicDreams — Alpha</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#tocar" aria-label="MagicDreams, início">
+        <span class="brand-icon" aria-hidden="true">♫</span>
+        <span>MagicDreams</span>
+        <span class="alpha-tag">ALPHA</span>
+      </a>
+      <nav class="navigation" aria-label="Navegação principal">
+        <a href="#tocar" data-route="tocar">Ouvir</a>
+        <a href="#compor" data-route="compor">Compor</a>
+        <a href="#piano" data-route="piano">Piano</a>
+        <a href="#biblioteca" data-route="biblioteca">Biblioteca</a>
+        <a href="#partituras" data-route="partituras">Partituras</a>
+        <a href="#galeria" data-route="galeria">Galeria</a>
+        <a href="#natal" data-route="natal">Natal</a>
+      </nav>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <span>MagicDreams Alpha</span>
+      <span>Uma experiência musical independente</span>
+    </footer>
+    <div id="announcer" class="visually-hidden" aria-live="polite"></div>
+  </body>
+</html>
