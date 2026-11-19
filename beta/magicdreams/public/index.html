@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5eee2" />
+    <meta name="description" content="MagicDreams — música, criação e momentos de tranquilidade." />
+    <title>MagicDreams 🎵</title>
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/tocar" aria-label="MagicDreams, início">
+        <span class="brand-mark" aria-hidden="true">♫</span>
+        <span>MagicDreams</span>
+      </a>
+      <nav class="navigation" aria-label="Navegação principal">
+        <a href="#/tocar" data-route="tocar">♫ <span>Tocar</span></a>
+        <a href="#/compor" data-route="compor">♬ <span>Compor</span></a>
+        <a href="#/piano" data-route="piano">♩ <span>Piano</span></a>
+        <a href="#/biblioteca" data-route="biblioteca">▤ <span>Biblioteca</span></a>
+        <a href="#/partituras" data-route="partituras">♯ <span>Partituras</span></a>
+        <a href="#/galeria" data-route="galeria">▧ <span>Galeria</span></a>
+        <a href="#/natal" data-route="natal">✳ <span>Natal</span></a>
+      </nav>
+    </header>
+    <main id="app" tabindex="-1"></main>
+    <footer class="footer">
+      <span>MagicDreams</span>
+      <span>Uma experiência musical local e independente</span>
+    </footer>
+    <div id="announcer" class="visually-hidden" aria-live="polite"></div>
+  </body>
+</html>
