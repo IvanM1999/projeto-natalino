@@ -1,0 +1,10 @@
+{
+  "name": "magicdreams",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Recriacao independente do site publico MagicDreams",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
